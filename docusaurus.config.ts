@@ -75,19 +75,19 @@ const config: Config = {
       },
       items: [
         //前端
-        {
-          type: 'docSidebar',
-          sidebarId: 'frontendSidebar',
-          position: 'right',
-          label: '前端',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'frontendSidebar',
+        //   position: 'right',
+        //   label: '前端',
+        // },
         //后端
-        {
-          type: 'docSidebar',
-          sidebarId: 'backendSidebar',
-          position: 'right',
-          label: '后端',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'backendSidebar',
+        //   position: 'right',
+        //   label: '后端',
+        // },
         //docker
         {
           type: 'docSidebar',
@@ -96,12 +96,12 @@ const config: Config = {
           label: 'docker',
         },
         //环境
-        {
-          type: 'docSidebar',
-          sidebarId: 'guidesSidebar',
-          position: 'right',
-          label: '环境',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'guidesSidebar',
+        //   position: 'right',
+        //   label: '环境',
+        // },
         // 注释掉不需要的内容
         {
           type: 'docSidebar',
