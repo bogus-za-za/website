@@ -103,13 +103,13 @@ const config: Config = {
           label: '环境',
         },
         // 注释掉不需要的内容
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'right',
-        //   label: 'Tutorial',
-        // },
-        // {to: '/blog', label: 'Blog', position: 'right'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'right',
+          label: 'Tutorial',
+        },
+        {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/bogus-za-za',
           label: 'GitHub',
