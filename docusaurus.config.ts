@@ -76,13 +76,19 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'dockerSidebar',
+          position: 'right',
+          label: 'docker',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/bogus-za-za',
           label: 'GitHub',
           position: 'right',
         },
